@@ -1,5 +1,21 @@
 # Easy APIs to call from JavaScript
 
+## Bored API
+
+Documentation: https://www.boredapi.com/
+
+### Example - Fetch a random activity
+
+```js
+fetch("https://www.boredapi.com/api/activity")
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+```
+
 ## Pokemon API
 
 Documentation: https://pokeapi.co/
