@@ -7,7 +7,7 @@ Documentation: https://pokeapi.co/
 ### Example - Fetch a list of Pokemons
 
 ```js
-fetch("https://pokeapi.co/api/v2/pokemon?limit=100&offset=200")
+fetch("https://pokeapi.co/api/v2/pokemon?limit=10")
   .then((response) => {
     return response.json();
   })
