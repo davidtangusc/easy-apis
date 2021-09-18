@@ -85,3 +85,21 @@ fetch('https://www.balldontlie.io/api/v1/players', {
     console.log(json);
   });
 ```
+
+## Genrenator API
+
+Documentation: https://binaryjazz.us/genrenator-api/
+
+### Example - Fetch a random genre or genre story.
+
+```js
+fetch('https://binaryjazz.us/wp-json/genrenator/v1/genre/', {
+  headers: { Accept: "application/json" },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+```
