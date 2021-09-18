@@ -67,3 +67,21 @@ fetch('https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD', {
     console.log(json);
   });
 ```
+
+## NBA Matches API
+
+Documentation: https://www.balldontlie.io/#introduction
+
+### Example - Access statistical data from the NBA.
+
+```js
+fetch('https://www.balldontlie.io/api/v1/players', {
+  headers: { Accept: "application/json" },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+```
