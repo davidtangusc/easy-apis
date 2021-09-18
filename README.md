@@ -49,3 +49,21 @@ fetch('https://icanhazdadjoke.com/search?page=1', {
     console.log(json);
   });
 ```
+
+## Exchange Rates API
+
+Documentation: https://www.exchangerate-api.com/docs
+
+### Example - Find the latest currency exchange rates
+
+```js
+fetch('https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD', {
+  headers: { Accept: "application/json" },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+```
