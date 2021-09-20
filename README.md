@@ -32,7 +32,7 @@ fetch("https://pokeapi.co/api/v2/pokemon?limit=10")
   });
 ```
 
-## icanhazdadjoke
+## icanhazdadjoke API
 
 Documentation: https://icanhazdadjoke.com/api
 
