@@ -54,6 +54,8 @@ fetch('https://icanhazdadjoke.com/search?page=1', {
 
 Documentation: https://www.exchangerate-api.com/docs
 
+Visit the documentation site to create an API Key and replace `YOUR-API-KEY` in the example below with your actual API Key.
+
 ### Example - Find the latest currency exchange rates
 
 ```js
